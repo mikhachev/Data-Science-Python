@@ -1,0 +1,464 @@
+[2020-Jun-09 20:57:51] 127.0.0.1 GET http /favicon.ico? 5xx INTERNAL SERVER ERROR
+Traceback (most recent call last):
+  File "D:\Python\GB\venv\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Python\GB\venv\lib\site-packages\flask\app.py", line 1926, in dispatch_request
+    self.raise_routing_exception(req)
+  File "D:\Python\GB\venv\lib\site-packages\flask\app.py", line 1908, in raise_routing_exception
+    raise request.routing_exception
+  File "D:\Python\GB\venv\lib\site-packages\flask\ctx.py", line 350, in match_request
+    result = self.url_adapter.match(return_rule=True)
+  File "D:\Python\GB\venv\lib\site-packages\werkzeug\routing.py", line 1945, in match
+    raise NotFound()
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+
+[2020-Jun-13 13:40:35] 127.0.0.1 GET http /predict_form? 5xx INTERNAL SERVER ERROR
+Traceback (most recent call last):
+  File "D:\Python\GB\venv\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Python\GB\venv\lib\site-packages\flask\app.py", line 1926, in dispatch_request
+    self.raise_routing_exception(req)
+  File "D:\Python\GB\venv\lib\site-packages\flask\app.py", line 1908, in raise_routing_exception
+    raise request.routing_exception
+  File "D:\Python\GB\venv\lib\site-packages\flask\ctx.py", line 350, in match_request
+    result = self.url_adapter.match(return_rule=True)
+  File "D:\Python\GB\venv\lib\site-packages\werkzeug\routing.py", line 1945, in match
+    raise NotFound()
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+
+[2020-Jun-13 13:40:38] 127.0.0.1 GET http /predict? 5xx INTERNAL SERVER ERROR
+Traceback (most recent call last):
+  File "D:\Python\GB\venv\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Python\GB\venv\lib\site-packages\flask\app.py", line 1926, in dispatch_request
+    self.raise_routing_exception(req)
+  File "D:\Python\GB\venv\lib\site-packages\flask\app.py", line 1908, in raise_routing_exception
+    raise request.routing_exception
+  File "D:\Python\GB\venv\lib\site-packages\flask\ctx.py", line 350, in match_request
+    result = self.url_adapter.match(return_rule=True)
+  File "D:\Python\GB\venv\lib\site-packages\werkzeug\routing.py", line 1940, in match
+    raise MethodNotAllowed(valid_methods=list(have_match_for))
+werkzeug.exceptions.MethodNotAllowed: 405 Method Not Allowed: The method is not allowed for the requested URL.
+
+[2020-Jun-13 13:46:06] 127.0.0.1 GET http /predict? 5xx INTERNAL SERVER ERROR
+Traceback (most recent call last):
+  File "D:\Python\GB\venv\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Python\GB\venv\lib\site-packages\flask\app.py", line 1926, in dispatch_request
+    self.raise_routing_exception(req)
+  File "D:\Python\GB\venv\lib\site-packages\flask\app.py", line 1908, in raise_routing_exception
+    raise request.routing_exception
+  File "D:\Python\GB\venv\lib\site-packages\flask\ctx.py", line 350, in match_request
+    result = self.url_adapter.match(return_rule=True)
+  File "D:\Python\GB\venv\lib\site-packages\werkzeug\routing.py", line 1940, in match
+    raise MethodNotAllowed(valid_methods=list(have_match_for))
+werkzeug.exceptions.MethodNotAllowed: 405 Method Not Allowed: The method is not allowed for the requested URL.
+
+[2020-Jun-13 13:46:12] 127.0.0.1 GET http /predicted/{
+  "ID": "12234", 
+  "value_avgclaim": "1416.11", 
+  "value_burningcost": "235.03", 
+  "value_freq": "0.17"
+}
+? 5xx INTERNAL SERVER ERROR
+Traceback (most recent call last):
+  File "D:\Python\GB\venv\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Python\GB\venv\lib\site-packages\flask\app.py", line 1926, in dispatch_request
+    self.raise_routing_exception(req)
+  File "D:\Python\GB\venv\lib\site-packages\flask\app.py", line 1908, in raise_routing_exception
+    raise request.routing_exception
+  File "D:\Python\GB\venv\lib\site-packages\flask\ctx.py", line 350, in match_request
+    result = self.url_adapter.match(return_rule=True)
+  File "D:\Python\GB\venv\lib\site-packages\werkzeug\routing.py", line 1945, in match
+    raise NotFound()
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+
+[2020-Jun-13 13:47:30] 127.0.0.1 GET http /predicted.html? 5xx INTERNAL SERVER ERROR
+Traceback (most recent call last):
+  File "D:\Python\GB\venv\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Python\GB\venv\lib\site-packages\flask\app.py", line 1926, in dispatch_request
+    self.raise_routing_exception(req)
+  File "D:\Python\GB\venv\lib\site-packages\flask\app.py", line 1908, in raise_routing_exception
+    raise request.routing_exception
+  File "D:\Python\GB\venv\lib\site-packages\flask\ctx.py", line 350, in match_request
+    result = self.url_adapter.match(return_rule=True)
+  File "D:\Python\GB\venv\lib\site-packages\werkzeug\routing.py", line 1945, in match
+    raise NotFound()
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+
+[2020-Jun-13 13:52:36] 127.0.0.1 GET http /predict? 5xx INTERNAL SERVER ERROR
+Traceback (most recent call last):
+  File "D:\Python\GB\venv\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Python\GB\venv\lib\site-packages\flask\app.py", line 1926, in dispatch_request
+    self.raise_routing_exception(req)
+  File "D:\Python\GB\venv\lib\site-packages\flask\app.py", line 1908, in raise_routing_exception
+    raise request.routing_exception
+  File "D:\Python\GB\venv\lib\site-packages\flask\ctx.py", line 350, in match_request
+    result = self.url_adapter.match(return_rule=True)
+  File "D:\Python\GB\venv\lib\site-packages\werkzeug\routing.py", line 1940, in match
+    raise MethodNotAllowed(valid_methods=list(have_match_for))
+werkzeug.exceptions.MethodNotAllowed: 405 Method Not Allowed: The method is not allowed for the requested URL.
+
+[2020-Jun-13 13:54:07] 127.0.0.1 GET http /predict? 5xx INTERNAL SERVER ERROR
+Traceback (most recent call last):
+  File "D:\Python\GB\venv\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Python\GB\venv\lib\site-packages\flask\app.py", line 1926, in dispatch_request
+    self.raise_routing_exception(req)
+  File "D:\Python\GB\venv\lib\site-packages\flask\app.py", line 1908, in raise_routing_exception
+    raise request.routing_exception
+  File "D:\Python\GB\venv\lib\site-packages\flask\ctx.py", line 350, in match_request
+    result = self.url_adapter.match(return_rule=True)
+  File "D:\Python\GB\venv\lib\site-packages\werkzeug\routing.py", line 1940, in match
+    raise MethodNotAllowed(valid_methods=list(have_match_for))
+werkzeug.exceptions.MethodNotAllowed: 405 Method Not Allowed: The method is not allowed for the requested URL.
+
+[2020-Jun-13 13:54:07] 127.0.0.1 GET http /favicon.ico? 5xx INTERNAL SERVER ERROR
+Traceback (most recent call last):
+  File "D:\Python\GB\venv\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Python\GB\venv\lib\site-packages\flask\app.py", line 1926, in dispatch_request
+    self.raise_routing_exception(req)
+  File "D:\Python\GB\venv\lib\site-packages\flask\app.py", line 1908, in raise_routing_exception
+    raise request.routing_exception
+  File "D:\Python\GB\venv\lib\site-packages\flask\ctx.py", line 350, in match_request
+    result = self.url_adapter.match(return_rule=True)
+  File "D:\Python\GB\venv\lib\site-packages\werkzeug\routing.py", line 1945, in match
+    raise NotFound()
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+
+[2020-Jun-13 14:01:50] request from 127.0.0.1: {'ID': '1213', 'LicAge': 12.0, 'Gender': 'Male', 'MariStat': 'Alone', 'DrivAge': 45.0, 'BonusMalus': 0.4, 'RiskArea': 2.0, 'VehUsage': 'VehUsg_Private', 'SocioCateg': 'CSP1'}
+[2020-Jun-13 14:01:50] predicted for 0.09807 msec: {'ID': '1213', 'value_freq': '0.15', 'value_avgclaim': '1552.84', 'value_burningcost': '236.38'}
+
+[2020-Jun-13 17:18:07] 127.0.0.1 GET http /favicon.ico? 5xx INTERNAL SERVER ERROR
+Traceback (most recent call last):
+  File "D:\Python\GB\venv\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Python\GB\venv\lib\site-packages\flask\app.py", line 1926, in dispatch_request
+    self.raise_routing_exception(req)
+  File "D:\Python\GB\venv\lib\site-packages\flask\app.py", line 1908, in raise_routing_exception
+    raise request.routing_exception
+  File "D:\Python\GB\venv\lib\site-packages\flask\ctx.py", line 350, in match_request
+    result = self.url_adapter.match(return_rule=True)
+  File "D:\Python\GB\venv\lib\site-packages\werkzeug\routing.py", line 1945, in match
+    raise NotFound()
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+
+[2020-Jun-13 17:18:29] request from 127.0.0.1: {'ID': '123', 'LicAge': 3.0, 'Gender': 'Male', 'MariStat': 'Alone', 'DrivAge': 12.0, 'BonusMalus': 0.6, 'RiskArea': 34.0, 'VehUsage': 'VehUsg_Private+trip to office', 'SocioCateg': 'CSP3'}
+[2020-Jun-13 17:18:29] predicted for 0.010992 msec: {'ID': '123', 'value_freq': '0.17', 'value_avgclaim': '1567.27', 'value_burningcost': '260.11'}
+
+[2020-Jun-13 17:37:40] request from 127.0.0.1: {'ID': '12', 'LicAge': 43.0, 'Gender': 'Male', 'MariStat': 'Alone', 'DrivAge': 77.0, 'BonusMalus': 0.5, 'RiskArea': 2.0, 'VehUsage': 'VehUsg_Private', 'SocioCateg': 'CSP1'}
+[2020-Jun-13 17:37:40] 127.0.0.1 POST http /predict? 5xx INTERNAL SERVER ERROR
+Traceback (most recent call last):
+  File "D:\Python\GB\venv\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Python\GB\venv\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "D:\Python\GB\ML_in_Business\Lesson9_case2_production\my_\front.py", line 87, in predict
+    prediction_freq = xgb_freq.predict(xgb.DMatrix(df.values)) - 1
+NameError: name 'xgb_freq' is not defined
+
+[2020-Jun-13 17:39:27] request from 127.0.0.1: {'ID': '12', 'LicAge': 2.0, 'Gender': 'Male', 'MariStat': 'Alone', 'DrivAge': 22.0, 'BonusMalus': 0.5, 'RiskArea': 2.0, 'VehUsage': 'VehUsg_Private', 'SocioCateg': 'CSP1'}
+[2020-Jun-13 17:39:27] 127.0.0.1 POST http /predict? 5xx INTERNAL SERVER ERROR
+Traceback (most recent call last):
+  File "D:\Python\GB\venv\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Python\GB\venv\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "D:\Python\GB\ML_in_Business\Lesson9_case2_production\my_\front.py", line 87, in predict
+    prediction_freq = xgb_freq.predict(xgb.DMatrix(df.values)) - 1
+NameError: name 'xgb_freq' is not defined
+
+[2020-Jun-13 17:45:04] request from 127.0.0.1: {'ID': '12', 'LicAge': 22.0, 'Gender': 'Male', 'MariStat': 'Alone', 'DrivAge': 36.0, 'BonusMalus': 0.5, 'RiskArea': 1.0, 'VehUsage': 'VehUsg_Private', 'SocioCateg': 'CSP1'}
+[2020-Jun-13 17:45:04] 127.0.0.1 POST http /predict? 5xx INTERNAL SERVER ERROR
+Traceback (most recent call last):
+  File "D:\Python\GB\venv\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Python\GB\venv\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "D:\Python\GB\ML_in_Business\Lesson9_case2_production\my_\front.py", line 87, in predict
+    prediction_freq = xgb_freq.predict(xgb.DMatrix(df.values)) - 1
+NameError: name 'xgb_freq' is not defined
+
+[2020-Jun-13 18:58:34] request from 127.0.0.1: {'ID': '1213', 'LicAge': 23.0, 'Gender': 'Male', 'MariStat': 'Alone', 'DrivAge': 33.0, 'BonusMalus': 0.5, 'RiskArea': 2.0, 'VehUsage': 'VehUsg_Private', 'SocioCateg': 'CSP1'}
+[2020-Jun-13 18:58:35] 127.0.0.1 POST http /predict? 5xx INTERNAL SERVER ERROR
+Traceback (most recent call last):
+  File "D:\Python\GB\venv\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Python\GB\venv\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "D:\Python\GB\ML_in_Business\Lesson9_case2_production\my_\front.py", line 87, in predict
+    prediction_freq = lgb_model_freq.predict(lgb.Dataset(df.values)) - 1
+  File "D:\Python\GB\venv\lib\site-packages\lightgbm\basic.py", line 2415, in predict
+    data_has_header, is_reshape)
+  File "D:\Python\GB\venv\lib\site-packages\lightgbm\basic.py", line 503, in predict
+    raise TypeError("Cannot use Dataset instance for prediction, please use raw data instead")
+TypeError: Cannot use Dataset instance for prediction, please use raw data instead
+
+[2020-Jun-13 19:12:24] request from 127.0.0.1: {'ID': '122', 'LicAge': 22.0, 'Gender': 'Male', 'MariStat': 'Alone', 'DrivAge': 45.0, 'BonusMalus': 0.5, 'RiskArea': 1.0, 'VehUsage': 'VehUsg_Private', 'SocioCateg': 'CSP1'}
+[2020-Jun-13 19:12:24] 127.0.0.1 POST http /predict? 5xx INTERNAL SERVER ERROR
+Traceback (most recent call last):
+  File "D:\Python\GB\venv\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Python\GB\venv\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "D:\Python\GB\ML_in_Business\Lesson9_case2_production\my_\front.py", line 88, in predict
+    prediction_freq = lgb_model_freq.predict(lgb.Dataset(df.values)) - 1
+  File "D:\Python\GB\venv\lib\site-packages\lightgbm\basic.py", line 2415, in predict
+    data_has_header, is_reshape)
+  File "D:\Python\GB\venv\lib\site-packages\lightgbm\basic.py", line 503, in predict
+    raise TypeError("Cannot use Dataset instance for prediction, please use raw data instead")
+TypeError: Cannot use Dataset instance for prediction, please use raw data instead
+
+[2020-Jun-13 19:16:31] request from 127.0.0.1: {'ID': '12', 'LicAge': 12.0, 'Gender': 'Male', 'MariStat': 'Alone', 'DrivAge': 45.0, 'BonusMalus': 0.5, 'RiskArea': 2.0, 'VehUsage': 'VehUsg_Private', 'SocioCateg': 'CSP1'}
+[2020-Jun-13 19:16:31] 127.0.0.1 POST http /predict? 5xx INTERNAL SERVER ERROR
+Traceback (most recent call last):
+  File "D:\Python\GB\venv\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Python\GB\venv\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "D:\Python\GB\ML_in_Business\Lesson9_case2_production\my_\front.py", line 90, in predict
+    prediction_freq = lgb_model_freq.predict(lgb.Dataset(df.values)) - 1
+  File "D:\Python\GB\venv\lib\site-packages\lightgbm\basic.py", line 2415, in predict
+    data_has_header, is_reshape)
+  File "D:\Python\GB\venv\lib\site-packages\lightgbm\basic.py", line 503, in predict
+    raise TypeError("Cannot use Dataset instance for prediction, please use raw data instead")
+TypeError: Cannot use Dataset instance for prediction, please use raw data instead
+
+[2020-Jun-13 20:02:17] request from 127.0.0.1: {'ID': '12', 'LicAge': 23.0, 'Gender': 'Male', 'MariStat': 'Alone', 'DrivAge': 35.0, 'BonusMalus': 0.5, 'RiskArea': 3.0, 'VehUsage': 'VehUsg_Private', 'SocioCateg': 'CSP1'}
+[2020-Jun-13 20:02:17] 127.0.0.1 POST http /predict? 5xx INTERNAL SERVER ERROR
+Traceback (most recent call last):
+  File "D:\Python\GB\venv\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Python\GB\venv\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "D:\Python\GB\ML_in_Business\Lesson9_case2_production\my_\front.py", line 92, in predict
+    prediction_freq = lgb_model_freq.predict(lgb.Dataset(df.values)) - 1
+  File "D:\Python\GB\venv\lib\site-packages\lightgbm\basic.py", line 2415, in predict
+    data_has_header, is_reshape)
+  File "D:\Python\GB\venv\lib\site-packages\lightgbm\basic.py", line 503, in predict
+    raise TypeError("Cannot use Dataset instance for prediction, please use raw data instead")
+TypeError: Cannot use Dataset instance for prediction, please use raw data instead
+
+[2020-Jun-13 20:06:29] 127.0.0.1 POST http /predict_form? 5xx INTERNAL SERVER ERROR
+Traceback (most recent call last):
+  File "D:\Python\GB\venv\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Python\GB\venv\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "D:\Python\GB\ML_in_Business\Lesson9_case2_production\my_\front.py", line 152, in predict_form
+    data['BonusMalus'] = float(request.form.get('bonus_malus'))
+ValueError: could not convert string to float: '0,2'
+
+[2020-Jun-13 20:06:37] request from 127.0.0.1: {'ID': '230164670992757', 'LicAge': 24.0, 'Gender': 'Male', 'MariStat': 'Alone', 'DrivAge': 34.0, 'BonusMalus': 0.2, 'RiskArea': 2.0, 'VehUsage': 'VehUsg_Private', 'SocioCateg': 'CSP1'}
+[2020-Jun-13 20:06:37] 127.0.0.1 POST http /predict? 5xx INTERNAL SERVER ERROR
+Traceback (most recent call last):
+  File "D:\Python\GB\venv\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Python\GB\venv\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "D:\Python\GB\ML_in_Business\Lesson9_case2_production\my_\front.py", line 92, in predict
+    prediction_freq = lgb_model_freq.predict(lgb.Dataset(df.values)) - 1
+  File "D:\Python\GB\venv\lib\site-packages\lightgbm\basic.py", line 2415, in predict
+    data_has_header, is_reshape)
+  File "D:\Python\GB\venv\lib\site-packages\lightgbm\basic.py", line 503, in predict
+    raise TypeError("Cannot use Dataset instance for prediction, please use raw data instead")
+TypeError: Cannot use Dataset instance for prediction, please use raw data instead
+
+[2020-Jun-13 20:09:05] request from 127.0.0.1: {'ID': '230164670992757', 'LicAge': 34.0, 'Gender': 'Male', 'MariStat': 'Alone', 'DrivAge': 45.0, 'BonusMalus': 0.3, 'RiskArea': 2.0, 'VehUsage': 'VehUsg_Private', 'SocioCateg': 'CSP1'}
+[2020-Jun-13 20:09:06] 127.0.0.1 POST http /predict? 5xx INTERNAL SERVER ERROR
+Traceback (most recent call last):
+  File "D:\Python\GB\venv\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Python\GB\venv\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "D:\Python\GB\ML_in_Business\Lesson9_case2_production\my_\front.py", line 93, in predict
+    prediction_freq = lgb_model_freq.predict(lgb.Dataset(df.values)) - 1
+  File "D:\Python\GB\venv\lib\site-packages\lightgbm\basic.py", line 2415, in predict
+    data_has_header, is_reshape)
+  File "D:\Python\GB\venv\lib\site-packages\lightgbm\basic.py", line 503, in predict
+    raise TypeError("Cannot use Dataset instance for prediction, please use raw data instead")
+TypeError: Cannot use Dataset instance for prediction, please use raw data instead
+
+[2020-Jun-13 20:12:57] request from 127.0.0.1: {'ID': '12', 'LicAge': 34.0, 'Gender': 'Male', 'MariStat': 'Alone', 'DrivAge': 45.0, 'BonusMalus': 0.5, 'RiskArea': 3.0, 'VehUsage': 'VehUsg_Private', 'SocioCateg': 'CSP1'}
+[2020-Jun-13 20:12:57] 127.0.0.1 POST http /predict? 5xx INTERNAL SERVER ERROR
+Traceback (most recent call last):
+  File "D:\Python\GB\venv\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Python\GB\venv\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "D:\Python\GB\ML_in_Business\Lesson9_case2_production\my_\front.py", line 93, in predict
+    prediction_freq = lgb_model_freq.predict(lgb.Dataset(df.values)) - 1
+  File "D:\Python\GB\venv\lib\site-packages\lightgbm\basic.py", line 2415, in predict
+    data_has_header, is_reshape)
+  File "D:\Python\GB\venv\lib\site-packages\lightgbm\basic.py", line 503, in predict
+    raise TypeError("Cannot use Dataset instance for prediction, please use raw data instead")
+TypeError: Cannot use Dataset instance for prediction, please use raw data instead
+
+[2020-Jun-13 20:21:34] request from 127.0.0.1: {'ID': '2', 'LicAge': 23.0, 'Gender': 'Male', 'MariStat': 'Alone', 'DrivAge': 45.0, 'BonusMalus': 0.5, 'RiskArea': 4.0, 'VehUsage': 'VehUsg_Private', 'SocioCateg': 'CSP1'}
+[2020-Jun-13 20:21:34] 127.0.0.1 POST http /predict? 5xx INTERNAL SERVER ERROR
+Traceback (most recent call last):
+  File "D:\Python\GB\venv\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Python\GB\venv\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "D:\Python\GB\ML_in_Business\Lesson9_case2_production\my_\front.py", line 91, in predict
+    print(lgb_model_freq.predict(lgb.Dataset(df.values))[0])
+  File "D:\Python\GB\venv\lib\site-packages\lightgbm\basic.py", line 2415, in predict
+    data_has_header, is_reshape)
+  File "D:\Python\GB\venv\lib\site-packages\lightgbm\basic.py", line 503, in predict
+    raise TypeError("Cannot use Dataset instance for prediction, please use raw data instead")
+TypeError: Cannot use Dataset instance for prediction, please use raw data instead
+
+[2020-Jun-13 20:23:36] 127.0.0.1 POST http /predict_form? 5xx INTERNAL SERVER ERROR
+Traceback (most recent call last):
+  File "D:\Python\GB\venv\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Python\GB\venv\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "D:\Python\GB\ML_in_Business\Lesson9_case2_production\my_\front.py", line 151, in predict_form
+    data['LicAge'] = float(request.form.get('lic_age'))
+ValueError: could not convert string to float: 'erw'
+
+[2020-Jun-13 20:24:48] request from 127.0.0.1: {'ID': '213', 'LicAge': 23.0, 'Gender': 'Male', 'MariStat': 'Alone', 'DrivAge': 45.0, 'BonusMalus': 0.5, 'RiskArea': 3.0, 'VehUsage': 'VehUsg_Private', 'SocioCateg': 'CSP1'}
+[2020-Jun-13 20:30:05] request from 127.0.0.1: {'ID': '213', 'LicAge': 23.0, 'Gender': 'Male', 'MariStat': 'Alone', 'DrivAge': 45.0, 'BonusMalus': 0.5, 'RiskArea': 3.0, 'VehUsage': 'VehUsg_Private', 'SocioCateg': 'CSP1'}
+[2020-Jun-13 20:30:24] predicted for 19.421608 msec: {'ID': '213', 'value_freq': '-0.77', 'value_avgclaim': '1817.39', 'value_burningcost': '-1396.23'}
+
+[2020-Jun-13 20:31:18] request from 127.0.0.1: {'ID': '23', 'LicAge': 34.0, 'Gender': 'Male', 'MariStat': 'Alone', 'DrivAge': 45.0, 'BonusMalus': 0.5, 'RiskArea': 3.0, 'VehUsage': 'VehUsg_Private', 'SocioCateg': 'CSP1'}
+[2020-Jun-13 20:31:18] predicted for 0.042973 msec: {'ID': '23', 'value_freq': '-0.77', 'value_avgclaim': '1170.22', 'value_burningcost': '-899.04'}
+
+[2020-Jun-14 12:02:18] 127.0.0.1 GET http /favicon.ico? 5xx INTERNAL SERVER ERROR
+Traceback (most recent call last):
+  File "D:\Python\GB\venv\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Python\GB\venv\lib\site-packages\flask\app.py", line 1926, in dispatch_request
+    self.raise_routing_exception(req)
+  File "D:\Python\GB\venv\lib\site-packages\flask\app.py", line 1908, in raise_routing_exception
+    raise request.routing_exception
+  File "D:\Python\GB\venv\lib\site-packages\flask\ctx.py", line 350, in match_request
+    result = self.url_adapter.match(return_rule=True)
+  File "D:\Python\GB\venv\lib\site-packages\werkzeug\routing.py", line 1945, in match
+    raise NotFound()
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+
+[2020-Jun-14 12:02:36] request from 127.0.0.1: {'ID': '234', 'LicAge': 22.0, 'Gender': 'Male', 'MariStat': 'Alone', 'DrivAge': 23.0, 'BonusMalus': 0.5, 'RiskArea': 4.0, 'VehUsage': 'VehUsg_Private', 'SocioCateg': 'CSP1'}
+[2020-Jun-14 12:02:37] 127.0.0.1 POST http /predict? 5xx INTERNAL SERVER ERROR
+Traceback (most recent call last):
+  File "D:\Python\GB\venv\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Python\GB\venv\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "D:\Python\GB\ML_in_Business\Lesson9_case2_production\my_\front.py", line 99, in predict
+    prediction_avgclaim = lgb_model_avgclaim.predict(lgb.Dataset(df.values))
+  File "D:\Python\GB\venv\lib\site-packages\lightgbm\basic.py", line 2415, in predict
+    data_has_header, is_reshape)
+  File "D:\Python\GB\venv\lib\site-packages\lightgbm\basic.py", line 503, in predict
+    raise TypeError("Cannot use Dataset instance for prediction, please use raw data instead")
+TypeError: Cannot use Dataset instance for prediction, please use raw data instead
+
+[2020-Jun-14 12:03:09] request from 127.0.0.1: {'ID': '45', 'LicAge': 23.0, 'Gender': 'Male', 'MariStat': 'Alone', 'DrivAge': 45.0, 'BonusMalus': 0.5, 'RiskArea': 3.0, 'VehUsage': 'VehUsg_Private', 'SocioCateg': 'CSP1'}
+[2020-Jun-14 12:03:09] 127.0.0.1 POST http /predict? 5xx INTERNAL SERVER ERROR
+Traceback (most recent call last):
+  File "D:\Python\GB\venv\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Python\GB\venv\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "D:\Python\GB\ML_in_Business\Lesson9_case2_production\my_\front.py", line 99, in predict
+    prediction_avgclaim = lgb_model_avgclaim.predict(lgb.Dataset(df.values))
+  File "D:\Python\GB\venv\lib\site-packages\lightgbm\basic.py", line 2415, in predict
+    data_has_header, is_reshape)
+  File "D:\Python\GB\venv\lib\site-packages\lightgbm\basic.py", line 503, in predict
+    raise TypeError("Cannot use Dataset instance for prediction, please use raw data instead")
+TypeError: Cannot use Dataset instance for prediction, please use raw data instead
+
+[2020-Jun-14 12:04:48] request from 127.0.0.1: {'ID': '12', 'LicAge': 34.0, 'Gender': 'Male', 'MariStat': 'Alone', 'DrivAge': 45.0, 'BonusMalus': 0.5, 'RiskArea': 2.0, 'VehUsage': 'VehUsg_Private', 'SocioCateg': 'CSP1'}
+[2020-Jun-14 12:04:48] predicted for 0.085948 msec: {'ID': '12', 'value_freq': '-0.8', 'value_avgclaim': '879.41', 'value_burningcost': '-701.37'}
+
+[2020-Jun-14 12:27:57] request from 127.0.0.1: {'ID': '2', 'LicAge': 23.0, 'Gender': 'Male', 'MariStat': 'Alone', 'DrivAge': 34.0, 'BonusMalus': 0.5, 'RiskArea': 6.0, 'VehUsage': 'VehUsg_Private', 'SocioCateg': 'CSP1'}
+[2020-Jun-14 12:27:57] 127.0.0.1 POST http /predict? 5xx INTERNAL SERVER ERROR
+Traceback (most recent call last):
+  File "D:\Python\GB\venv\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Python\GB\venv\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "D:\Python\GB\ML_in_Business\Lesson9_case2_production\my_\front.py", line 83, in predict
+    df = process_input(json_input)
+  File "D:\Python\GB\ML_in_Business\Lesson9_case2_production\my_\process_data.py", line 83, in process_input
+    HasKmLimit = map_for_dict_HasKmLimit(json_input["HasKmLimit"])
+KeyError: 'HasKmLimit'
+
+[2020-Jun-14 12:31:10] request from 127.0.0.1: {'ID': '2', 'LicAge': 23.0, 'Gender': 'Male', 'HasKmLimit': None, 'MariStat': 'Alone', 'DrivAge': 34.0, 'BonusMalus': 0.5, 'RiskArea': 5.0, 'VehUsage': 'VehUsg_Private', 'SocioCateg': 'CSP1'}
+[2020-Jun-14 12:31:11] 127.0.0.1 POST http /predict? 5xx INTERNAL SERVER ERROR
+Traceback (most recent call last):
+  File "D:\Python\GB\venv\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Python\GB\venv\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "D:\Python\GB\ML_in_Business\Lesson9_case2_production\my_\front.py", line 85, in predict
+    print(lgb_model_freq.predict(lgb.Dataset(df.values).data))
+  File "D:\Python\GB\venv\lib\site-packages\lightgbm\basic.py", line 2415, in predict
+    data_has_header, is_reshape)
+  File "D:\Python\GB\venv\lib\site-packages\lightgbm\basic.py", line 535, in predict
+    preds, nrow = self.__pred_for_np2d(data, num_iteration, predict_type)
+  File "D:\Python\GB\venv\lib\site-packages\lightgbm\basic.py", line 623, in __pred_for_np2d
+    return inner_predict(mat, num_iteration, predict_type)
+  File "D:\Python\GB\venv\lib\site-packages\lightgbm\basic.py", line 605, in inner_predict
+    preds.ctypes.data_as(ctypes.POINTER(ctypes.c_double))))
+  File "D:\Python\GB\venv\lib\site-packages\lightgbm\basic.py", line 45, in _safe_call
+    raise LightGBMError(decode_string(_LIB.LGBM_GetLastError()))
+lightgbm.basic.LightGBMError: The number of features in data (18) is not the same as it was in training data (17).
+
+[2020-Jun-14 12:35:05] request from 127.0.0.1: {'ID': '23', 'LicAge': 23.0, 'Gender': 'Male', 'HasKmLimit': None, 'MariStat': 'Alone', 'DrivAge': 45.0, 'BonusMalus': 0.4, 'RiskArea': 4.0, 'VehUsage': 'VehUsg_Private', 'SocioCateg': 'CSP1'}
+[2020-Jun-14 12:35:05] 127.0.0.1 POST http /predict? 5xx INTERNAL SERVER ERROR
+Traceback (most recent call last):
+  File "D:\Python\GB\venv\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Python\GB\venv\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "D:\Python\GB\ML_in_Business\Lesson9_case2_production\my_\front.py", line 84, in predict
+    print(lgb_model_freq.predict(lgb.Dataset(df.values).data))
+  File "D:\Python\GB\venv\lib\site-packages\lightgbm\basic.py", line 2415, in predict
+    data_has_header, is_reshape)
+  File "D:\Python\GB\venv\lib\site-packages\lightgbm\basic.py", line 535, in predict
+    preds, nrow = self.__pred_for_np2d(data, num_iteration, predict_type)
+  File "D:\Python\GB\venv\lib\site-packages\lightgbm\basic.py", line 623, in __pred_for_np2d
+    return inner_predict(mat, num_iteration, predict_type)
+  File "D:\Python\GB\venv\lib\site-packages\lightgbm\basic.py", line 605, in inner_predict
+    preds.ctypes.data_as(ctypes.POINTER(ctypes.c_double))))
+  File "D:\Python\GB\venv\lib\site-packages\lightgbm\basic.py", line 45, in _safe_call
+    raise LightGBMError(decode_string(_LIB.LGBM_GetLastError()))
+lightgbm.basic.LightGBMError: The number of features in data (18) is not the same as it was in training data (17).
+
+[2020-Jun-14 12:40:04] request from 127.0.0.1: {'ID': '25', 'LicAge': 23.0, 'Gender': 'Male', 'HasKmLimit': None, 'MariStat': 'Alone', 'DrivAge': 23.0, 'BonusMalus': 0.4, 'RiskArea': 4.0, 'VehUsage': 'VehUsg_Private', 'SocioCateg': 'CSP1'}
+[2020-Jun-14 12:40:04] 127.0.0.1 POST http /predict? 5xx INTERNAL SERVER ERROR
+Traceback (most recent call last):
+  File "D:\Python\GB\venv\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Python\GB\venv\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "D:\Python\GB\ML_in_Business\Lesson9_case2_production\my_\front.py", line 84, in predict
+    print(lgb_model_freq.predict(lgb.Dataset(df.values).data))
+  File "D:\Python\GB\venv\lib\site-packages\lightgbm\basic.py", line 2415, in predict
+    data_has_header, is_reshape)
+  File "D:\Python\GB\venv\lib\site-packages\lightgbm\basic.py", line 535, in predict
+    preds, nrow = self.__pred_for_np2d(data, num_iteration, predict_type)
+  File "D:\Python\GB\venv\lib\site-packages\lightgbm\basic.py", line 623, in __pred_for_np2d
+    return inner_predict(mat, num_iteration, predict_type)
+  File "D:\Python\GB\venv\lib\site-packages\lightgbm\basic.py", line 605, in inner_predict
+    preds.ctypes.data_as(ctypes.POINTER(ctypes.c_double))))
+  File "D:\Python\GB\venv\lib\site-packages\lightgbm\basic.py", line 45, in _safe_call
+    raise LightGBMError(decode_string(_LIB.LGBM_GetLastError()))
+lightgbm.basic.LightGBMError: The number of features in data (18) is not the same as it was in training data (17).
+
+[2020-Jun-14 12:41:10] request from 127.0.0.1: {'ID': '234', 'LicAge': 3.0, 'Gender': 'Male', 'HasKmLimit': None, 'MariStat': 'Alone', 'DrivAge': 34.0, 'BonusMalus': 0.4, 'RiskArea': 5.0, 'VehUsage': 'VehUsg_Private', 'SocioCateg': 'CSP1'}
+[2020-Jun-14 12:43:58] request from 127.0.0.1: {'ID': '234', 'LicAge': 3.0, 'Gender': 'Male', 'HasKmLimit': None, 'MariStat': 'Alone', 'DrivAge': 34.0, 'BonusMalus': 0.4, 'RiskArea': 5.0, 'VehUsage': 'VehUsg_Private', 'SocioCateg': 'CSP1'}
+[2020-Jun-14 12:44:23] request from 127.0.0.1: {'ID': '23', 'LicAge': 34.0, 'Gender': 'Male', 'HasKmLimit': None, 'MariStat': 'Alone', 'DrivAge': 45.0, 'BonusMalus': 0.4, 'RiskArea': 4.0, 'VehUsage': 'VehUsg_Private', 'SocioCateg': 'CSP1'}
+[2020-Jun-14 12:47:36] request from 127.0.0.1: {'ID': '23', 'LicAge': 34.0, 'Gender': 'Male', 'MariStat': 'Alone', 'DrivAge': 45.0, 'HasKmLimit': None, 'BonusMalus': 0.5, 'RiskArea': 5.0, 'VehUsage': 'VehUsg_Private', 'SocioCateg': 'CSP1'}
+[2020-Jun-14 12:48:34] predicted for 58.386747 msec: {'ID': '23', 'value_freq': '-0.75', 'value_avgclaim': '941.64', 'value_burningcost': '-709.69'}
+
+[2020-Jun-14 12:49:56] request from 127.0.0.1: {'ID': '34', 'LicAge': 23.0, 'Gender': 'Male', 'MariStat': 'Alone', 'DrivAge': 45.0, 'HasKmLimit': None, 'BonusMalus': 0.5, 'RiskArea': 4.0, 'VehUsage': 'VehUsg_Private', 'SocioCateg': 'CSP1'}
+[2020-Jun-14 12:49:56] predicted for 0.021985 msec: {'ID': '34', 'value_freq': '-0.75', 'value_avgclaim': '956.51', 'value_burningcost': '-720.77'}
+
